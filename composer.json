@@ -1,0 +1,25 @@
+{
+    "name": "nemod503/comparator",
+    "description": "Test project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "n.a.kolesnichenko",
+            "email": "n.a.kolesnichenko@yandex.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9",
+        "symfony/console": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4" : {
+            "NemoD503\\Searcher\\" : "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
